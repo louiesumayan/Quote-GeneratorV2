@@ -60,7 +60,7 @@ function newQuotes(data) {
 
   // tweet a Quote
   function tweetQuote() {
-    const twitterUrl = `http://twitter.com/share?text=${quoteText.textContent} - ${authorText.textContent} %20-- [ GET YOUR QUOTES HERE @ https://github.com/louiesumayan ] --`;
+    const twitterUrl = `http://twitter.com/share?text=${quoteText.textContent} - ${authorText.textContent} %20-- [ GET YOUR QUOTES HERE @ https://louiesumayan.github.io/Quote-GeneratorV2/ ] --`;
     window.open(twitterUrl, '_blank');
   }
   twitterBtn.addEventListener('click', tweetQuote);
